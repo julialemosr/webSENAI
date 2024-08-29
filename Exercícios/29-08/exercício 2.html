@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags de Formulario</title>
+</head>
+<body>
+<form action="submit" method="post">
+    <label for="nome do produto" >Nome do produto: </label>
+    <input id="nome do produto" type="text" required placeholder="Escreva o nome do produto">
+<br>
+<br>
+    <label for="descrição" >Descrição: </label><br>
+    <textarea id="descrição" rows="10" cols="80" rdequire placeholder="Escreva uma descrição"></textarea>
+
+<br>
+<br>
+
+<label for="categoria" >Categoria: </label>
+<select id="categoria">
+    <optgroup label="Produtos" >
+    <option value="calçados">Calçados</option>
+    <option value="brinquedos">Brinquedos</option>
+    <option value="livros">Livros</option>
+    <option value="eletronicos">Eletrônicos</option>
+    <option value="esportes">Esportes</option>
+    </optgroup>
+</select>
+
+<br>
+<br>
+
+<label for="paises" >País: </label>
+<select id="paises">
+    <optgroup label="Países" >
+    <option value="Inglaterra">Inglaterra</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Suiça">Suiça</option>
+    <option value="Estados Unidos">Estados Unidos</option>
+    <option value="Alemanhã">Alemanhã</option>
+    </optgroup>
+</select>
+
+<br>
+<br>
+
+<label for="preco" >Preço do produto: </label>
+<input id="preco" type="number" required placeholder="Digite o preço do produto">
+
+<br>
+<br>
+
+<label for="data de fabricacao" >Data de fabricação do produto: </label>
+<input id="data de fabricacao" type="date" required placeholder="Digite a data">
+<br>
+<br>
+
+<button type="submit">Salvar</button>
+<button type="reset">Redefinir</button>
+
+</form>
+</body>
+</html>

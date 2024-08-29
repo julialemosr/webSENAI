@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags de Formulario</title>
+</head>
+<body>
+<h2> PESQUISA DE SATISFAÇÃO DO CLIENTE</h2>
+<form
+action="submit" method="post">
+    <label for="nome" >Nome: </label>
+    <input id="nome" type="text" required placeholder="Escreva seu nome">
+<br>
+<br>
+    <label for="empresa" >Empresa: </label>
+    <input id="empresa" type="text" required placeholder="Escreva o nome da empresa">
+<br>
+<br>
+    <label for="idade" name="idade"> Idade: </label><br>
+
+    <input id="idade" type="radio" required name="idade"> 10-20 anos
+    <input id="idade" type="radio" required name="idade" > 20-30 anos
+    <input id="idade" type="radio" required name="idade"> 30-50 anos
+    <input id="idade" type="radio" required name="idade"> 50-80 anos
+<br>
+<br>
+    <label for="email" >Email: </label>
+    <input id="email" type="text" required placeholder="Digite seu email">
+<br>
+<br>
+    <label for="telefone comercial" >Telefone comercial: </label>
+    <input id="telefone comercial" type="text" required placeholder="Digite o telefone comercial">
+    <label for="celular" >Celular: </label>
+    <input id="celular" type="text" required placeholder="Digite seu celular">
+<br>
+<br>
+    <label for="serviços" name="serviços"> Como você avalia nossos serviços atualmente? </label><br>
+
+    <input id="serviços" type="radio" required name="serviços"> REGULAR
+    <input id="serviços" type="radio" required name="serviços" > BOM
+    <input id="serviços" type="radio" required name="serviços" > EXCELENTE
+<br>
+<br>
+    <label for="área operacional" name="área operacional"> Como você avalia os serviços da área operacional? </label><br>
+
+    <input id="área operacional" type="radio" required name="área operacional"> REGULAR
+    <input id="área operacional" type="radio" required name="área operacional"> BOM
+    <input id="área operacional" type="radio" required name="área operacional"> EXCELENTE
+<br>
+<br>
+    <label for="atendimento administrativo" name="atendimento administrativo"> Qual o nível de satisfação com o atendimento
+    administrativo quando você precisa? </label><br>
+
+    <input id="atendimento administrativo" type="radio" required name="atendimento administrativo"> POUCO SATISFATÓRIO
+    <input id="atendimento administrativo" type="radio" required name="atendimento administrativo"> SATISFATÓRIO
+    <input id="atendimento administrativo" type="radio" required name="atendimento administrativo"> MUITO SATISFATÓRIO
+<br>
+<br>
+    <label for="profissionais" name="profissionais"> Os profissionais lhe atendem de forma satisfatória? </label><br>
+
+    <input id="profissionais" type="radio" required name="profissionais"> SIM
+    <input id="profissionais" type="radio" required name="profissionais"> NÃO
+<br>
+<br>
+    <label for="sugestão" >Você tem alguma sugestão ou crítica a fazer para cadavez mais melhorarmos nossos serviços? </label><br>
+    <textarea id="sugestão" rows="10" cols="80" required placeholder="Escreva uma sugestão"></textarea>
+<br>
+<h4> Muito Obrigado(a)<br> Sua opinião é fundamental para nós! </h4>
+<br>
+<button type="submit">Salvar</button>
+<button type="reset">Redefinir</button>
+
+</body>
+</html>

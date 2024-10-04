@@ -1,0 +1,84 @@
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.frase1 {
+    color:green;
+    background-color: gray;
+    font-size: 36px;
+}
+
+.frase2 {
+    color:red;
+    background-color: gray;
+    text-align: center;
+    font-size: 36px;
+}
+
+.frase3 {
+    color:blue;
+    background-color: gray;
+    text-align: right;
+    font-size: 36px;
+}
+
+.frase4 {
+    color: purple;
+    background-color: grey;
+    text-align: center;
+    font-size: 36px;
+}
+
+.frase5 {
+    color: yellow;
+    background-color: grey;
+    font-size: 36px;
+}
+
+.frase6 {
+    color: pink;
+    background-color: grey;
+    text-align: center;
+    font-size: 36px;
+}
+
+body {
+    background-color: #e6e68b;
+}
+
+ul {
+    background-color: white;
+}
+
+.frase1:hover {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.frase2:hover {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.frase3:hover {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.frase4:hover {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.frase5:hover {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.frase6:hover {
+    background-color: white;
+    color: black;
+    text-align: left;
+}

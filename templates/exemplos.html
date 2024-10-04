@@ -1,0 +1,40 @@
+
+<!--importar p layout do template-->
+{% extends 'templates.html' %}
+
+<!--define o bloco onde o conteudo sera exibido-->
+{% block conteudo%}
+
+<h1> Exemplos: </h1>
+
+<div class="card1">
+        <ul>
+            <li><a href="{{ url_for('css_texto') }}" target="_blank"> css-texto</a></li>
+        </ul>
+    </div>
+
+    <div class="card1">
+        <ul>
+             <li><a href="{{ url_for('DIVS') }}" target="_blank"> DIVS</a></li>
+        </ul>
+    </div>
+
+    <div class="card1">
+        <ul>
+            <li><a href="{{ url_for('Formulário') }}" target="_blank"> Formulário</a></li>
+        </ul>
+    </div>
+
+    <div class="card1">
+        <ul>
+              <li><a href="{{ url_for('midia') }}" target="_blank"> midia</a></li>
+        </ul>
+    </div>
+
+    <div class="card1">
+        <ul>
+            <li><a href="{{ url_for('texto') }}" target="_blank"> texto</a></li>
+        </ul>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display:block;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+div p {
+    display:inline;
+}
+
+
+.div-primeiro{
+    text-align: center;
+    background-color: green;
+    height: 100px;
+}
+
+.div-segundo {
+    text-align: center;
+    background-color: blue;
+    display: inline-block;
+    height: 200px;
+    width: 780px;
+}
+
+.div-terceiro {
+    text-align: center;
+    background-color: yellow;
+    display: inline-block;
+    height: 200px;
+    width: 744px;
+}
+
+.div-quarto {
+    text-align: center;
+    background-color: green;
+    height: 100px;
+}

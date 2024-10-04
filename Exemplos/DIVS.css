@@ -1,0 +1,62 @@
+*{
+    /*serve para deixar os textos colados la em cima*/
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /*block define a largura 100% e é padrão da div*/
+    display:block;
+    /*largura*/
+    width: 100vw;
+    /*altura*/
+    height: 100vh;
+}
+
+/*todos os parágrafos dentro de uma div*/
+div p {
+    /* inline define a largura de acordo com o conteúdo
+    não aceita modificar altura e largura*/
+    display:inline;
+}
+
+.div-block{
+    /*para grifar a frase*/
+    background-color: pink;
+    /*block define a largura 100% e é padrão da div*/
+    display: block;
+}
+
+.div-inline {
+    /*para grifar a frase*/
+    background-color: darkorchid;
+    /* inline define a largura de acordo com o conteúdo
+    não aceita modificar altura e largura*/
+    display: inline;
+}
+
+.div-inline-block {
+    /*para grifar a frase*/
+    background-color: lightblue;
+
+    /*inline-block se ajusta ao conteúdo podendo
+     modificar altura e largura*/
+    display: inline-block;
+
+    /*altura*/
+    height: 90px;
+
+    /*largura*/
+    width: 150px;
+
+    /*margem externa*/
+    margin: 20px;
+
+    /*padding é para deixar uma margem interna*/
+    padding: 10px;
+
+    /*é para escolher a espessura, tipo e a cor */
+    border: 5px solid black;
+
+    /*border-radius deixa os cantos arredondados*/
+    border-radius:10px ;
+}

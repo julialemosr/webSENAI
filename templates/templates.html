@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/templates.css">
+</head>
+<body>
+
+<div class="container">
+   <header>
+        <h3>LINGUAGEM DE MARCAÇÃO</h3>
+   </header>
+   <nav>
+      <ul>
+          <li><a href="{{ url_for('exemplos') }}"> Exemplos</a></li>
+          <li><a href="{{ url_for('exercicios') }}"> Exercícios</a></li>
+      </ul>
+   </nav>
+
+<main>
+    {% block conteudo %}
+    {% endblock %}
+</main>
+
+</div>
+
+</body>
+</html>

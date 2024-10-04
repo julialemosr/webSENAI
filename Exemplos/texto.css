@@ -1,0 +1,38 @@
+/*para mudar a cor de todos os textos*/
+/*font-family é usado para alterar a fonte */
+/*a virgula adiciona segunda opção de fonte(serif fonte padrão) */
+p {
+    color: darkred;
+    font-family: "Berlin Sans FB", Serif;
+}
+
+/*usado para mudar a cor de apenas uma parte do texto*/
+/*text-decoration é usado para por uma linha embaixo da frase*/
+.frase {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+/*color é usado para mudar a cor da linha e grifar*/
+/*text-align é usado para escolher se vai centralizar ou ficar dos lados*/
+/*color para escolher a cor da linha*/
+/*background-color é para grifar*/
+/*font-size e usado para aumentar ou diminuir a letra*/
+#frase {
+    color: black;
+    background-color: crimson;
+    text-align: center;
+    font-size: 22px;
+}
+
+/*é usado para quando passar o mousse em cima mudar a cor*/
+#frase:hover {
+    background-color: lightpink;
+    color: deeppink;
+}
+
+
+/*serve para mudar a cor do fundo da tela*/
+body {
+    background-color: #d9b3e8;
+}

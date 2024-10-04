@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.frase {
+    color: white;
+    background-color: red;
+    font-size: 36px;
+}
+
+body {
+    background-color: black;
+}

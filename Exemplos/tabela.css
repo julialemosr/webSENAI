@@ -1,0 +1,13 @@
+table,td,th {
+  /* Adicionar borda*/
+  border: 2px solid black;
+  /* Junta as bordas*/
+  border-collapse: collapse;
+}
+
+td, th {
+  /* Alinhar o texto*/
+  text-align: center;
+  /* margem interna*/
+  padding: 5px;
+}

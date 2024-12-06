@@ -1,0 +1,34 @@
+table,td,th {
+  /* Adicionar borda*/
+  border: 2px solid black;
+  /* Junta as bordas*/
+  border-collapse: collapse;
+}
+
+td, th {
+  /* Alinhar o texto*/
+  text-align: center;
+  /* margem interna*/
+  padding: 5px;
+}
+
+th {
+    background-color: #8caded;
+}
+
+thead, th {
+    font-weight: bold;
+}
+
+h4 {
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    margin: 0 auto;
+}

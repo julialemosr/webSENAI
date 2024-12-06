@@ -1,0 +1,75 @@
+* {
+    text-font-family: Arial;
+    font-weight: bold;
+}
+
+table,td,th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  text-align: center;
+  padding: 5px;
+}
+
+th {
+    background-color: darkblue;
+    color: #76f5ff;
+}
+
+td {
+    background-color: darkblue;
+    color: #76f5ff;
+}
+
+thead, th {
+    font-weight: bold;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.P {
+    background-color:#76f5ff ;
+    color: darkblue;
+}
+
+.number1 {
+    background-color: darkblue;
+    color: greenyellow;
+}
+
+.number2 {
+    background-color: darkblue;
+    color: deepskyblue;
+}
+
+.number3 {
+    background-color: darkblue;
+    color: #d8d804;
+}
+
+.number4 {
+    background-color: darkblue;
+    color: white;
+}
+
+.number5 {
+    background-color: darkblue;
+    color: #d61111;
+}
+
+.time {
+    background-color: white;
+    color: darkblue;
+}
+
+
+
